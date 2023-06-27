@@ -1,0 +1,126 @@
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      .header {
+        height: 5vw;
+        background-color: rgb(246, 151, 17);
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    
+      }
+    
+      nav {
+        width: 80vw;
+        margin: auto;
+      }
+    
+      .nav div {
+        text-align: center;
+        color: white;
+        font-size: 2.5vw;
+        font-weight: 500;
+      }
+    
+      .main-block {
+        /* background-color: red; */
+        height: 80vh;
+         background-image: -webkit-linear-gradient(blue,rgba(185, 16, 16, 0.009));
+        /* background-image:radial-gradient(ellipse at top left, rgba(255, 166, 0, 0.685), rgba(0, 255, 255, 0),rgba(0, 255, 255, 0))
+         , url("https://e0.pxfuel.com/wallpapers/525/734/desktop-wallpaper-beach-png-beach-png.jpg"); */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        overflow: hidden;
+      }
+
+      .main-block article {
+        /* margin-top: 10vw; */
+        display: flex;
+        
+        justify-content: center;
+        align-items: center;
+      }
+      .main-block .main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      .card-block{
+        margin-top: 1vw;
+        border-radius:1vw;
+        box-shadow: 0px 0px 20px 0.3px rgba(255, 255, 255, 0.904);
+        background-color: rgba(12, 1, 4, 0.397);
+        
+      }
+      .top{
+        background-color: red;
+        color:white;
+        font-size: 2vw;
+        border-radius:1vw;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+        box-shadow: 0px 0px 20px 0.3px rgba(255, 255, 255, 0.904);
+        align-items: center;
+        justify-items: center;
+      }
+      .image-descriptio{
+         display: flex;
+         gap: 2vw;
+      }
+      .main{
+        margin-top: 15vw;
+        
+        /* background-color: aqua; */
+      }
+      input{
+        background-color: rgba(255, 255, 250, 0.795);
+        height: 5vh;
+        font-size: 2vw;
+        text-align: center;
+        
+        
+        margin: auto;
+        
+        color: rgb(0, 0, 0);
+        border-style: none;
+        border-radius: 30vw;
+        margin-bottom: 3vh;
+
+      }
+      button{
+         background-color: rgba(255, 255, 250, 0.795);
+         height: 5vh;
+         font-size: 2vw;
+         /* text-align: center; */
+
+         width: 5vw;
+         border-style: none;
+         border-radius: 30vw;
+      }
+      .right div{
+       text-transform: capitalize;
+       color: wheat;
+       word-spacing: 0.5vw;
+       line-height:1.5;
+       font-size:1.5vw;
+      }
+
+      h3{
+        text-transform: capitalize;
+        color: white;
+        font-size: 2vw;
+      }
+
+      #icon{
+        /* background-color: aqua; */
+        font-size: 2vw;
+        align-items: center;
+        text-align: center;
+      }
+      
