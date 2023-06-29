@@ -68,4 +68,3 @@ form.addEventListener("submit", e => {
   fetchData(cityname);
 });
 
-// fetchData(cityname);
